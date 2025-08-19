@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
+  console.log("Navigation component rendering...");
   const location = useLocation();
 
   return (
