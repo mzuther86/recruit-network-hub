@@ -24,36 +24,8 @@ const Hero = () => {
               <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity shadow-elegant">
                 Jetzt starten <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button variant="outline" size="lg">
-                Recruiter ansehen
-              </Button>
             </div>
 
-            <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
-              <div className="text-center">
-                <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-2 mx-auto">
-                  <Users className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-2xl font-bold text-primary">100+</div>
-                <div className="text-sm text-muted-foreground">Experten-Recruiter</div>
-              </div>
-              
-              <div className="text-center">
-                <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-2 mx-auto">
-                  <Target className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-2xl font-bold text-primary">95%</div>
-                <div className="text-sm text-muted-foreground">Match-Erfolg</div>
-              </div>
-              
-              <div className="text-center">
-                <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-2 mx-auto">
-                  <TrendingUp className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-2xl font-bold text-primary">3x</div>
-                <div className="text-sm text-muted-foreground">Schnellere Einstellung</div>
-              </div>
-            </div>
           </div>
 
           <div className="relative">
