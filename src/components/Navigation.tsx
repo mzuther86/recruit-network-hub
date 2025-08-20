@@ -19,7 +19,7 @@ const Navigation = () => {
               location.pathname === '/' ? 'text-primary' : 'text-muted-foreground'
             }`}
           >
-            Home
+            Startseite
           </Link>
           <Link 
             to="/imprint" 
@@ -27,7 +27,7 @@ const Navigation = () => {
               location.pathname === '/imprint' ? 'text-primary' : 'text-muted-foreground'
             }`}
           >
-            Imprint
+            Impressum
           </Link>
           <Link 
             to="/terms" 
@@ -41,10 +41,10 @@ const Navigation = () => {
 
         <div className="flex items-center space-x-4">
           <Button variant="ghost" size="sm">
-            Sign In
+            Anmelden
           </Button>
           <Button size="sm" className="bg-gradient-primary hover:opacity-90 transition-opacity">
-            Get Started
+            Loslegen
           </Button>
         </div>
       </div>

@@ -14,63 +14,63 @@ import {
 const benefits = [
   {
     icon: Network,
-    title: "Diverse Specialist Networks",
-    description: "Each recruiter brings their unique industry networks and specialized connections",
-    traditional: "Limited to agency's internal network",
-    ourWay: "100+ specialized networks combined"
+    title: "Vielfältige Spezialistennetzwerke",
+    description: "Jeder Recruiter bringt seine einzigartigen Branchennetzwerke und spezialisierten Verbindungen mit",
+    traditional: "Begrenzt auf agenturinterne Netzwerke",
+    ourWay: "100+ spezialisierte Netzwerke kombiniert"
   },
   {
     icon: Clock,
-    title: "Faster Time-to-Hire",
-    description: "Multiple recruiters working simultaneously accelerates the entire process",
-    traditional: "Single recruiter, sequential process",
-    ourWay: "Parallel recruitment = 3x faster"
+    title: "Schnellere Einstellungszeit",
+    description: "Mehrere Recruiter, die gleichzeitig arbeiten, beschleunigen den gesamten Prozess",
+    traditional: "Ein Recruiter, sequenzieller Prozess",
+    ourWay: "Paralleles Recruiting = 3x schneller"
   },
   {
     icon: DollarSign,
-    title: "Competitive Pricing",
-    description: "Recruiters compete for your business, ensuring competitive rates",
-    traditional: "Fixed agency fees (20-30%)",
-    ourWay: "Competitive bidding (15-25%)"
+    title: "Wettbewerbsfähige Preise",
+    description: "Recruiter konkurrieren um Ihr Geschäft und sorgen für wettbewerbsfähige Preise",
+    traditional: "Feste Agenturgebühren (20-30%)",
+    ourWay: "Wettbewerbliches Bieten (15-25%)"
   },
   {
     icon: Target,
-    title: "Higher Success Rates",
-    description: "Specialized expertise in specific industries and roles",
-    traditional: "Generalist approach",
-    ourWay: "Industry-specific specialists"
+    title: "Höhere Erfolgsquoten",
+    description: "Spezialisierte Expertise in bestimmten Branchen und Rollen",
+    traditional: "Generalistischer Ansatz",
+    ourWay: "Branchenspezifische Spezialisten"
   }
 ];
 
 const comparison = [
   {
-    feature: "Number of Networks",
-    traditional: "1 Agency Network",
-    platform: "100+ Specialist Networks",
+    feature: "Anzahl der Netzwerke",
+    traditional: "1 Agentur-Netzwerk",
+    platform: "100+ Spezialistennetzwerke",
     highlight: true
   },
   {
-    feature: "Recruiter Specialization",
-    traditional: "Generalist Recruiters",
-    platform: "Industry Specialists",
+    feature: "Recruiter-Spezialisierung",
+    traditional: "Generalisten-Recruiter",
+    platform: "Branchenspezialisten",
     highlight: true
   },
   {
-    feature: "Time to First Candidate",
-    traditional: "2-3 weeks",
-    platform: "1 week",
+    feature: "Zeit bis zum ersten Kandidaten",
+    traditional: "2-3 Wochen",
+    platform: "1 Woche",
     highlight: false
   },
   {
-    feature: "Success Rate",
+    feature: "Erfolgsquote",
     traditional: "70-80%",
     platform: "95%+",
     highlight: true
   },
   {
-    feature: "Cost Structure",
-    traditional: "Fixed 20-30%",
-    platform: "Competitive 15-25%",
+    feature: "Kostenstruktur",
+    traditional: "Fest 20-30%",
+    platform: "Wettbewerblich 15-25%",
     highlight: false
   }
 ];
@@ -81,10 +81,10 @@ const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Why Choose Our <span className="bg-gradient-primary bg-clip-text text-transparent">Platform</span>
+            Warum unsere <span className="bg-gradient-primary bg-clip-text text-transparent">Plattform</span> wählen
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            See how our freelance recruiter network outperforms traditional agencies
+            Sehen Sie, wie unser Freelance-Recruiter-Netzwerk traditionelle Agenturen übertrifft
           </p>
         </div>
 
@@ -121,25 +121,25 @@ const Benefits = () => {
         {/* Comparison Table */}
         <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold mb-2">Platform vs Traditional Agencies</h3>
-            <p className="text-muted-foreground">See the clear advantages of our approach</p>
+            <h3 className="text-2xl font-bold mb-2">Plattform vs. Traditionelle Agenturen</h3>
+            <p className="text-muted-foreground">Sehen Sie die klaren Vorteile unseres Ansatzes</p>
           </div>
 
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
                 <tr className="border-b border-border">
-                  <th className="text-left py-4 px-4 font-semibold">Feature</th>
+                  <th className="text-left py-4 px-4 font-semibold">Merkmal</th>
                   <th className="text-center py-4 px-4 font-semibold">
                     <div className="flex items-center justify-center space-x-2">
                       <Building2 className="h-5 w-5" />
-                      <span>Traditional Agency</span>
+                      <span>Traditionelle Agentur</span>
                     </div>
                   </th>
                   <th className="text-center py-4 px-4 font-semibold">
                     <div className="flex items-center justify-center space-x-2">
                       <Network className="h-5 w-5 text-primary" />
-                      <span className="text-primary">Our Platform</span>
+                      <span className="text-primary">Unsere Plattform</span>
                     </div>
                   </th>
                 </tr>
@@ -156,7 +156,7 @@ const Benefits = () => {
                         </span>
                         {item.highlight && (
                           <Badge variant="secondary" className="bg-primary/10 text-primary">
-                            Better
+                            Besser
                           </Badge>
                         )}
                       </div>

@@ -10,11 +10,11 @@ const CTA = () => {
       <div className="container mx-auto px-4 relative">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Ready to Transform Your Hiring Process?
+            Bereit, Ihren Einstellungsprozess zu transformieren?
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Join hundreds of companies who've accelerated their recruitment with our specialist network. 
-            Start finding better candidates faster today.
+            Schließen Sie sich Hunderten von Unternehmen an, die ihr Recruiting mit unserem Spezialisten-Netzwerk beschleunigt haben. 
+            Finden Sie noch heute bessere Kandidaten schneller.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -23,14 +23,14 @@ const CTA = () => {
               variant="secondary"
               className="bg-white text-primary hover:bg-white/90 shadow-glow"
             >
-              Start Free Trial <ArrowRight className="ml-2 h-5 w-5" />
+              Kostenlos testen <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
               className="border-white text-white hover:bg-white/10"
             >
-              Schedule Demo
+              Demo vereinbaren
             </Button>
           </div>
 
@@ -46,7 +46,7 @@ const CTA = () => {
           </div>
 
           <div className="mt-8 text-sm opacity-75">
-            <p>No setup fees • Cancel anytime • 14-day free trial</p>
+            <p>Keine Setup-Gebühren • Jederzeit kündbar • 14 Tage kostenlos testen</p>
           </div>
         </div>
       </div>

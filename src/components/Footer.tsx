@@ -16,23 +16,23 @@ const Footer = () => {
               <span className="text-xl font-bold">RecruitNetwork</span>
             </Link>
             <p className="text-muted-foreground text-sm">
-              Connecting companies with elite freelance recruiters for faster, 
-              more effective hiring across all industries.
+              Verbindung von Unternehmen mit Elite Freelance-Recruitern für schnellere, 
+              effektivere Einstellungen in allen Branchen.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold mb-4">Company</h3>
+            <h3 className="font-semibold mb-4">Unternehmen</h3>
             <div className="space-y-2">
               <Link to="/" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                Home
+                Startseite
               </Link>
               <Link to="/imprint" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                Imprint
+                Impressum
               </Link>
               <Link to="/terms" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                Terms & Conditions
+                AGB
               </Link>
             </div>
           </div>
@@ -42,15 +42,15 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Services</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
               <p>Executive Search</p>
-              <p>Technical Recruiting</p>
-              <p>Sales Recruitment</p>
-              <p>Marketing Specialists</p>
+              <p>Tech-Recruiting</p>
+              <p>Vertriebsrekrutierung</p>
+              <p>Marketing-Spezialisten</p>
             </div>
           </div>
 
           {/* Contact */}
           <div>
-            <h3 className="font-semibold mb-4">Contact</h3>
+            <h3 className="font-semibold mb-4">Kontakt</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4" />
@@ -71,11 +71,11 @@ const Footer = () => {
         <Separator className="my-8" />
 
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
-          <p>© 2024 RecruitNetwork. All rights reserved.</p>
+          <p>© 2024 RecruitNetwork. Alle Rechte vorbehalten.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link to="/imprint" className="hover:text-primary transition-colors">Privacy</Link>
-            <Link to="/terms" className="hover:text-primary transition-colors">Terms</Link>
-            <span>Made with ❤️ in Germany</span>
+            <Link to="/imprint" className="hover:text-primary transition-colors">Datenschutz</Link>
+            <Link to="/terms" className="hover:text-primary transition-colors">AGB</Link>
+            <span>Mit ❤️ in Deutschland entwickelt</span>
           </div>
         </div>
       </div>

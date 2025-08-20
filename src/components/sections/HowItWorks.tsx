@@ -4,26 +4,26 @@ import { ArrowRight, Search, Users, CheckCircle, Zap } from "lucide-react";
 const steps = [
   {
     icon: Search,
-    title: "Post Your Requirements",
-    description: "Describe your ideal candidate, role specifications, and company culture. Our AI matches you with the most suitable recruiters.",
+    title: "Anforderungen definieren",
+    description: "Beschreiben Sie Ihren Wunschkandidaten, Stellenspezifikationen und Unternehmenskultur. Unsere KI findet die passendsten Recruiter für Sie.",
     step: "01"
   },
   {
     icon: Users,
-    title: "Get Matched with Specialists",
-    description: "Receive proposals from 3-5 recruiters specialized in your industry, each with their unique networks and proven track records.",
+    title: "Mit Spezialisten vernetzen",
+    description: "Erhalten Sie Vorschläge von 3-5 Recruitern, die auf Ihre Branche spezialisiert sind, jeder mit einzigartigen Netzwerken und bewährten Erfolgsbilanzen.",
     step: "02"
   },
   {
     icon: Zap,
-    title: "Recruiters Compete for You",
-    description: "Multiple recruiters work simultaneously using their specialized tools and networks to find your perfect candidates.",
+    title: "Recruiter konkurrieren für Sie",
+    description: "Mehrere Recruiter arbeiten gleichzeitig mit ihren spezialisierten Tools und Netzwerken, um Ihre perfekten Kandidaten zu finden.",
     step: "03"
   },
   {
     icon: CheckCircle,
-    title: "Hire the Best Talent",
-    description: "Review vetted candidates from multiple sources and make your choice. Pay only when you hire successfully.",
+    title: "Beste Talente einstellen",
+    description: "Überprüfen Sie geprüfte Kandidaten aus verschiedenen Quellen und treffen Sie Ihre Wahl. Bezahlen Sie nur bei erfolgreicher Einstellung.",
     step: "04"
   }
 ];
@@ -34,10 +34,10 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            How It <span className="bg-gradient-primary bg-clip-text text-transparent">Works</span>
+            So <span className="bg-gradient-primary bg-clip-text text-transparent">funktioniert es</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Our streamlined process connects you with the right recruiters and candidates in just four simple steps
+            Unser optimierter Prozess verbindet Sie in nur vier einfachen Schritten mit den richtigen Recruitern und Kandidaten
           </p>
         </div>
 

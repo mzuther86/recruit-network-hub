@@ -10,22 +10,22 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                Connect with 
+                Vernetzen Sie sich mit 
                 <span className="bg-gradient-primary bg-clip-text text-transparent"> Elite </span>
-                Freelance Recruiters
+                Freelance-Recruitern
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Access a network of 100+ specialized recruiters, each with unique networks and proven methodologies. 
-                Find your perfect candidates faster than traditional agencies.
+                Zugriff auf ein Netzwerk von über 100 spezialisierten Recruitern, jeder mit einzigartigen Netzwerken und bewährten Methoden. 
+                Finden Sie Ihre perfekten Kandidaten schneller als traditionelle Agenturen.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity shadow-elegant">
-                Start Hiring <ArrowRight className="ml-2 h-5 w-5" />
+                Jetzt starten <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button variant="outline" size="lg">
-                View Recruiters
+                Recruiter ansehen
               </Button>
             </div>
 
@@ -35,7 +35,7 @@ const Hero = () => {
                   <Users className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-2xl font-bold text-primary">100+</div>
-                <div className="text-sm text-muted-foreground">Expert Recruiters</div>
+                <div className="text-sm text-muted-foreground">Experten-Recruiter</div>
               </div>
               
               <div className="text-center">
@@ -43,7 +43,7 @@ const Hero = () => {
                   <Target className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-2xl font-bold text-primary">95%</div>
-                <div className="text-sm text-muted-foreground">Match Success</div>
+                <div className="text-sm text-muted-foreground">Match-Erfolg</div>
               </div>
               
               <div className="text-center">
@@ -51,7 +51,7 @@ const Hero = () => {
                   <TrendingUp className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-2xl font-bold text-primary">3x</div>
-                <div className="text-sm text-muted-foreground">Faster Hiring</div>
+                <div className="text-sm text-muted-foreground">Schnellere Einstellung</div>
               </div>
             </div>
           </div>
