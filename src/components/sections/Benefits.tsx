@@ -14,33 +14,33 @@ import {
 const benefits = [
   {
     icon: Target,
-    title: "Fokus auf Qualität & Reichweite",
-    description: "Erfahrene Recruiter arbeiten gezielt für Sie – auf Knopfdruck, ohne eigenen Sourcing-Aufwand oder zusätzliche Tools."
+    title: "Höchste Qualität & Maximale Reichweite",
+    description: "Professionelle Recruiting-Spezialisten übernehmen die komplette Kandidatensuche für Sie - sofort einsatzbereit, ohne internen Aufwand oder kostspielige Software-Investitionen."
   },
   {
     icon: Users,
-    title: "Umfangreiche Bewerberdaten",
-    description: "Erhalten Sie detaillierte Screening-Notizen, LinkedIn-Profile, Lebensläufe und optionale Sprachproben für deutschsprachige Positionen."
+    title: "Vollständige Kandidatenprofile",
+    description: "Sie erhalten ausführliche Bewertungen, professionelle Netzwerk-Profile, komplette Karrierehistorien und bei Bedarf Sprachfähigkeitsnachweise für deutsche Arbeitsplätze."
   },
   {
     icon: Zap,
-    title: "Schnelle Besetzung",
-    description: "Unternehmen stellen durchschnittlich innerhalb von 25 Tagen ein – erste Bewerber treffen bereits nach 3 bis 5 Tagen ein."
+    title: "Blitzschnelle Stellenbesetzung",
+    description: "Firmen finden ihre idealen Kandidaten typischerweise in unter einem Monat - die ersten qualifizierten Bewerbungen erreichen Sie bereits in der ersten Woche."
   },
   {
     icon: CheckCircle2,
-    title: "Zweistufige Qualitätsprüfung",
-    description: "Jede Bewerbung wird doppelt geprüft: zuerst durch den Recruiter, dann durch Juucys integrierte Qualitätskontrolle."
+    title: "Doppelte Qualitätssicherung",
+    description: "Jeder Kandidat durchläuft unser mehrstufiges Prüfverfahren: Erstbewertung durch Fachexperten, anschließend durch unser eigenes Qualitätssicherungsteam."
   },
   {
     icon: TrendingDown,
-    title: "Bis zu 90% günstiger & komplett flexibel",
-    description: "Keine Abo-Gebühren und deutlich geringere Kosten als traditionelle Ansätze – dank unseres dezentralen, effizienten Modells."
+    title: "Drastische Kostensenkung & Volle Flexibilität",
+    description: "Verzichten Sie auf teure Abonnements und reduzieren Sie Ihre Recruiting-Kosten erheblich - möglich durch unser innovatives, verteiltes Netzwerkmodell."
   },
   {
     icon: Shield,
-    title: "Geprüftes Recruiter-Netzwerk",
-    description: "Juucy verbindet Sie mit sorgfältig geprüften Experten, basierend auf einer transparenten Performance-Übersicht mehrerer hundert spezialisierter Recruiter."
+    title: "Verifiziertes Expertenportfolio",
+    description: "Wir verbinden Sie ausschließlich mit qualitätsgeprüften Recruiting-Profis, ausgewählt durch detaillierte Leistungsanalysen aus unserem Pool von hunderten Branchenspezialisten."
   }
 ];
 
