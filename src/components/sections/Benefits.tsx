@@ -1,75 +1,164 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { 
-  Search, 
-  FileText, 
-  Zap, 
-  ShieldCheck, 
+  Network, 
+  Clock, 
   DollarSign, 
-  Users
+  Users, 
+  Target, 
+  Trophy,
+  Building2,
+  UserX
 } from "lucide-react";
 
 const benefits = [
   {
-    icon: Search,
-    title: "Fokus auf Qualität & Reichweite",
-    description: "Erfahrene Recruiter arbeiten gezielt für Sie - mit Fokus auf höchste Qualität, ohne eigenen Sourcing-Aufwand oder zusätzliche Tools."
+    icon: Network,
+    title: "Vielfältige Spezialistennetzwerke",
+    description: "Jeder Recruiter bringt seine einzigartigen Branchennetzwerke und spezialisierten Verbindungen mit",
+    traditional: "Begrenzt auf agenturinterne Netzwerke",
+    ourWay: "100+ spezialisierte Netzwerke kombiniert"
   },
   {
-    icon: FileText,
-    title: "Detaillierte Bewerberdaten",
-    description: "Erhalten Sie ausführliche Screening-Berichte, LinkedIn-Profile, Lebensläufe und bei Bedarf Sprachproben für deutschsprachige Positionen."
-  },
-  {
-    icon: Zap,
-    title: "Blitzschnelle Besetzung",
-    description: "Unternehmen setzen auf schnelle Ergebnisse im Schnitt innerhalb von 30 Tagen - erste Bewerber bereits nach 3 bis 5 Tagen."
-  },
-  {
-    icon: ShieldCheck,
-    title: "Doppelte Qualitätssicherung",
-    description: "Jede Bewerbung wird zweifach geprüft: zunächst durch den Recruiter, anschließend durch unsere interne Qualitätskontrolle."
+    icon: Clock,
+    title: "Schnellere Einstellungszeit",
+    description: "Mehrere Recruiter, die gleichzeitig arbeiten, beschleunigen den gesamten Prozess",
+    traditional: "Ein Recruiter, sequenzieller Prozess",
+    ourWay: "Paralleles Recruiting = 3x schneller"
   },
   {
     icon: DollarSign,
-    title: "Bis zu 90% günstiger & flexibel",
-    description: "Keine Abo-Gebühren und deutlich niedrigere Kosten als herkömmliche Ansätze - dank unseres dezentralen, effizienten Modells."
+    title: "Wettbewerbsfähige Preise",
+    description: "Recruiter konkurrieren um Ihr Geschäft und sorgen für wettbewerbsfähige Preise",
+    traditional: "Feste Agenturgebühren (20-30%)",
+    ourWay: "Wettbewerbliches Bieten (15-25%)"
   },
   {
-    icon: Users,
-    title: "Geprüftes Recruiter-Netzwerk",
-    description: "Wir verbinden Sie mit sorgfältig geprüften Experten, basierend auf einer transparenten Performance-Übersicht von hunderten spezialisierten Recruitern."
+    icon: Target,
+    title: "Höhere Erfolgsquoten",
+    description: "Spezialisierte Expertise in bestimmten Branchen und Rollen",
+    traditional: "Generalistischer Ansatz",
+    ourWay: "Branchenspezifische Spezialisten"
+  }
+];
+
+const comparison = [
+  {
+    feature: "Anzahl der Netzwerke",
+    traditional: "1 Agentur-Netzwerk",
+    platform: "100+ Spezialistennetzwerke",
+    highlight: true
+  },
+  {
+    feature: "Recruiter-Spezialisierung",
+    traditional: "Generalisten-Recruiter",
+    platform: "Branchenspezialisten",
+    highlight: true
+  },
+  {
+    feature: "Zeit bis zum ersten Kandidaten",
+    traditional: "2-3 Wochen",
+    platform: "1 Woche",
+    highlight: false
+  },
+  {
+    feature: "Erfolgsquote",
+    traditional: "70-80%",
+    platform: "95%+",
+    highlight: true
+  },
+  {
+    feature: "Kostenstruktur",
+    traditional: "Fest 20-30%",
+    platform: "15-25%",
+    highlight: false
   }
 ];
 
 const Benefits = () => {
   return (
-    <section className="py-20 bg-secondary/30">
+    <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
-            SPAREN SIE ZEIT & GELD
-          </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            <span className="bg-gradient-primary bg-clip-text text-transparent">10x effizienter</span> einstellen
+            Warum unsere <span className="bg-gradient-primary bg-clip-text text-transparent">Plattform</span> wählen
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Top-Talente zu finden war aufwendig und teuer - bis jetzt.
+            Sehen Sie, wie unser Freelance-Recruiter-Netzwerk traditionelle Agenturen übertrifft
           </p>
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-8 mb-20">
           {benefits.map((benefit, index) => (
-            <Card key={index} className="bg-gradient-card border-0 shadow-card hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4">
-                  <benefit.icon className="h-6 w-6 text-white" />
+            <Card key={index} className="bg-gradient-card border-0 shadow-card hover:shadow-elegant transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                    <benefit.icon className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2">{benefit.title}</h3>
+                    <p className="text-muted-foreground mb-4">{benefit.description}</p>
+                    
+                    <div className="space-y-2">
+                      <div className="flex items-center space-x-2">
+                        <UserX className="h-4 w-4 text-destructive" />
+                        <span className="text-sm text-muted-foreground">{benefit.traditional}</span>
+                      </div>
+                      <div className="flex items-center space-x-2">
+                        <Trophy className="h-4 w-4 text-primary" />
+                        <span className="text-sm font-medium text-primary">{benefit.ourWay}</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-primary">{benefit.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{benefit.description}</p>
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Comparison Table */}
+        <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold mb-2">Plattform vs. Traditionelle Agenturen</h3>
+            <p className="text-muted-foreground">Sehen Sie die klaren Vorteile unseres Ansatzes</p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full">
+              <thead>
+                <tr className="border-b border-border">
+                  <th className="text-left py-4 px-4 font-semibold">Merkmal</th>
+                  <th className="text-center py-4 px-4 font-semibold">
+                    <div className="flex items-center justify-center space-x-2">
+                      <Building2 className="h-5 w-5" />
+                      <span>Traditionelle Agentur</span>
+                    </div>
+                  </th>
+                  <th className="text-center py-4 px-4 font-semibold">
+                    <div className="flex items-center justify-center space-x-2">
+                      <Network className="h-5 w-5 text-primary" />
+                      <span className="text-primary">Unsere Plattform</span>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparison.map((item, index) => (
+                  <tr key={index} className="border-b border-border last:border-b-0">
+                    <td className="py-4 px-4 font-medium">{item.feature}</td>
+                    <td className="py-4 px-4 text-center text-muted-foreground">{item.traditional}</td>
+                    <td className="py-4 px-4 text-center">
+                      <span className="text-primary font-bold">
+                        {item.platform}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </section>
