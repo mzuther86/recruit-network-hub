@@ -70,7 +70,7 @@ const comparison = [
   {
     feature: "Kostenstruktur",
     traditional: "Fest 20-30%",
-    platform: "Wettbewerblich 15-25%",
+    platform: "15-25%",
     highlight: false
   }
 ];
@@ -150,16 +150,9 @@ const Benefits = () => {
                     <td className="py-4 px-4 font-medium">{item.feature}</td>
                     <td className="py-4 px-4 text-center text-muted-foreground">{item.traditional}</td>
                     <td className="py-4 px-4 text-center">
-                      <div className="flex items-center justify-center space-x-2">
-                        <span className={item.highlight ? "text-primary font-medium" : ""}>
-                          {item.platform}
-                        </span>
-                        {item.highlight && (
-                          <Badge variant="secondary" className="bg-primary/10 text-primary">
-                            Besser
-                          </Badge>
-                        )}
-                      </div>
+                      <span className="text-primary font-bold">
+                        {item.platform}
+                      </span>
                     </td>
                   </tr>
                 ))}
