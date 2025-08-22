@@ -121,7 +121,6 @@ const Benefits = () => {
             <table className="w-full">
               <thead>
                 <tr className="border-b border-border">
-                  <th className="text-left py-4 px-4 font-semibold">Merkmal</th>
                   <th className="text-center py-4 px-4 font-semibold">
                     <div className="flex items-center justify-center space-x-2">
                       <Building2 className="h-5 w-5" />
@@ -139,7 +138,6 @@ const Benefits = () => {
               <tbody>
                 {comparison.map((item, index) => (
                   <tr key={index} className="border-b border-border last:border-b-0">
-                    <td className="py-4 px-4 font-medium">{item.feature}</td>
                     <td className="py-4 px-4 text-center text-muted-foreground">{item.traditional}</td>
                     <td className="py-4 px-4 text-center">
                       <span className="text-primary font-bold">
