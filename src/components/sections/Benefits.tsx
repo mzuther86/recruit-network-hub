@@ -110,6 +110,67 @@ const Benefits = () => {
           ))}
         </div>
 
+        {/* Process Comparison */}
+        <div className="mb-20">
+          <div className="text-center mb-12">
+            <Badge variant="secondary" className="mb-4 px-4 py-2 text-sm font-medium">
+              PROZESS VEREINFACHEN
+            </Badge>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Der direkte Pfad zu <span className="bg-gradient-primary bg-clip-text text-transparent">erstklassigen</span> Fachkräften
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Erhalten Sie die Expertise eines kompletten Recruiting-Netzwerks mit 100+ Spezialisten – bei der Einfachheit einer zentralen Kommunikation.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            {/* Traditional Process */}
+            <Card className="bg-gradient-card border-0 shadow-card">
+              <CardContent className="p-6">
+                <div className="text-center mb-4">
+                  <h3 className="text-xl font-semibold text-destructive mb-2">Vorher: Traditioneller Ansatz</h3>
+                  <p className="text-muted-foreground text-sm">Komplexe Prozesse, viele Schnittstellen</p>
+                </div>
+                <div className="aspect-[4/3] bg-muted rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/63e6c6ca-1c83-4a55-b662-39b5e3c20cb0.png" 
+                    alt="Traditioneller Recruiting-Prozess mit vielen Schnittstellen und komplexer Kommunikation"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="mt-4 flex flex-wrap gap-2 justify-center">
+                  <Badge variant="destructive" className="text-xs">Hoher Zeitaufwand</Badge>
+                  <Badge variant="destructive" className="text-xs">Unklare Kommunikation</Badge>
+                  <Badge variant="destructive" className="text-xs">Zu viele Schnittstellen</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Platform Process */}
+            <Card className="bg-gradient-card border-0 shadow-card ring-2 ring-primary/20">
+              <CardContent className="p-6">
+                <div className="text-center mb-4">
+                  <h3 className="text-xl font-semibold text-primary mb-2">Nachher: Unsere Plattform</h3>
+                  <p className="text-muted-foreground text-sm">Streamlined, transparent, effizient</p>
+                </div>
+                <div className="aspect-[4/3] bg-muted rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/e65f2268-813b-4f91-81bb-cbc528e56a9c.png" 
+                    alt="Moderne Plattform mit zentraler Kommunikation und 100+ spezialisierten Recruitern"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="mt-4 flex flex-wrap gap-2 justify-center">
+                  <Badge variant="secondary" className="text-xs">Ein Ansprechpartner</Badge>
+                  <Badge variant="secondary" className="text-xs">100+ Spezialisten</Badge>
+                  <Badge variant="secondary" className="text-xs">Maximale Transparenz</Badge>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+
         {/* Comparison Table */}
         <div className="bg-gradient-card rounded-2xl p-8 shadow-card">
           <div className="text-center mb-8">
