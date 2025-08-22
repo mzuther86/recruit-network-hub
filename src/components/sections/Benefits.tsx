@@ -104,8 +104,8 @@ const Benefits = () => {
                   
                   
                 </div>
-                <div className="h-64 bg-muted rounded-lg overflow-hidden flex items-center justify-center">
-                  <img src="/lovable-uploads/63e6c6ca-1c83-4a55-b662-39b5e3c20cb0.png" alt="Traditioneller Recruiting-Prozess mit vielen Schnittstellen und komplexer Kommunikation" className="max-w-full max-h-full object-contain" />
+                <div className="h-64 bg-muted rounded-lg overflow-hidden">
+                  <img src="/lovable-uploads/63e6c6ca-1c83-4a55-b662-39b5e3c20cb0.png" alt="Traditioneller Recruiting-Prozess mit vielen Schnittstellen und komplexer Kommunikation" className="w-full h-full object-cover" />
                 </div>
                 
               </CardContent>
@@ -118,8 +118,8 @@ const Benefits = () => {
                   
                   
                 </div>
-                <div className="h-64 bg-muted rounded-lg overflow-hidden flex items-center justify-center">
-                  <img src="/lovable-uploads/e65f2268-813b-4f91-81bb-cbc528e56a9c.png" alt="Moderne Plattform mit zentraler Kommunikation und 100+ spezialisierten Recruitern" className="max-w-full max-h-full object-contain" />
+                <div className="h-64 bg-muted rounded-lg overflow-hidden">
+                  <img src="/lovable-uploads/e65f2268-813b-4f91-81bb-cbc528e56a9c.png" alt="Moderne Plattform mit zentraler Kommunikation und 100+ spezialisierten Recruitern" className="w-full h-full object-cover" />
                 </div>
                 
               </CardContent>
