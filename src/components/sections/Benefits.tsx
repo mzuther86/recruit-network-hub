@@ -1,85 +1,59 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  Network, 
-  Building2,
-  Users, 
-  Target, 
-  Zap,
-  CheckCircle2,
-  TrendingDown,
-  Shield
-} from "lucide-react";
-
-const benefits = [
-  {
-    icon: Target,
-    title: "Höchste Qualität & Maximale Reichweite",
-    description: "Professionelle Recruiting-Spezialisten übernehmen die komplette Kandidatensuche für Sie - sofort einsatzbereit, ohne internen Aufwand oder kostspielige Software-Investitionen."
-  },
-  {
-    icon: Users,
-    title: "Vollständige Kandidatenprofile",
-    description: "Sie erhalten ausführliche Bewertungen, professionelle Netzwerk-Profile, komplette Karrierehistorien und bei Bedarf Sprachfähigkeitsnachweise für deutsche Arbeitsplätze."
-  },
-  {
-    icon: Zap,
-    title: "Blitzschnelle Stellenbesetzung",
-    description: "Firmen finden ihre idealen Kandidaten typischerweise in unter einem Monat - die ersten qualifizierten Bewerbungen erreichen Sie bereits in der ersten Woche."
-  },
-  {
-    icon: CheckCircle2,
-    title: "Doppelte Qualitätssicherung",
-    description: "Jeder Kandidat durchläuft unser mehrstufiges Prüfverfahren: Erstbewertung durch Fachexperten, anschließend durch unser eigenes Qualitätssicherungsteam."
-  },
-  {
-    icon: TrendingDown,
-    title: "Drastische Kostensenkung & Volle Flexibilität",
-    description: "Verzichten Sie auf teure Abonnements und reduzieren Sie Ihre Recruiting-Kosten erheblich - möglich durch unser innovatives, verteiltes Netzwerkmodell."
-  },
-  {
-    icon: Shield,
-    title: "Verifiziertes Expertenportfolio",
-    description: "Wir verbinden Sie ausschließlich mit qualitätsgeprüften Recruiting-Profis, ausgewählt durch detaillierte Leistungsanalysen aus unserem Pool von hunderten Branchenspezialisten."
-  }
-];
-
-const comparison = [
-  {
-    feature: "Anzahl der Netzwerke",
-    traditional: "1 Agentur-Netzwerk",
-    platform: "100+ Spezialistennetzwerke",
-    highlight: true
-  },
-  {
-    feature: "Recruiter-Spezialisierung",
-    traditional: "Generalisten-Recruiter",
-    platform: "Branchenspezialisten",
-    highlight: true
-  },
-  {
-    feature: "Zeit bis zum ersten Kandidaten",
-    traditional: "2-3 Wochen",
-    platform: "1 Woche",
-    highlight: false
-  },
-  {
-    feature: "Erfolgsquote",
-    traditional: "70-80%",
-    platform: "95%+",
-    highlight: true
-  },
-  {
-    feature: "Kostenstruktur",
-    traditional: "Fest 20-30%",
-    platform: "15-25%",
-    highlight: false
-  }
-];
-
+import { Network, Building2, Users, Target, Zap, CheckCircle2, TrendingDown, Shield } from "lucide-react";
+const benefits = [{
+  icon: Target,
+  title: "Höchste Qualität & Maximale Reichweite",
+  description: "Professionelle Recruiting-Spezialisten übernehmen die komplette Kandidatensuche für Sie - sofort einsatzbereit, ohne internen Aufwand oder kostspielige Software-Investitionen."
+}, {
+  icon: Users,
+  title: "Vollständige Kandidatenprofile",
+  description: "Sie erhalten ausführliche Bewertungen, professionelle Netzwerk-Profile, komplette Karrierehistorien und bei Bedarf Sprachfähigkeitsnachweise für deutsche Arbeitsplätze."
+}, {
+  icon: Zap,
+  title: "Blitzschnelle Stellenbesetzung",
+  description: "Firmen finden ihre idealen Kandidaten typischerweise in unter einem Monat - die ersten qualifizierten Bewerbungen erreichen Sie bereits in der ersten Woche."
+}, {
+  icon: CheckCircle2,
+  title: "Doppelte Qualitätssicherung",
+  description: "Jeder Kandidat durchläuft unser mehrstufiges Prüfverfahren: Erstbewertung durch Fachexperten, anschließend durch unser eigenes Qualitätssicherungsteam."
+}, {
+  icon: TrendingDown,
+  title: "Drastische Kostensenkung & Volle Flexibilität",
+  description: "Verzichten Sie auf teure Abonnements und reduzieren Sie Ihre Recruiting-Kosten erheblich - möglich durch unser innovatives, verteiltes Netzwerkmodell."
+}, {
+  icon: Shield,
+  title: "Verifiziertes Expertenportfolio",
+  description: "Wir verbinden Sie ausschließlich mit qualitätsgeprüften Recruiting-Profis, ausgewählt durch detaillierte Leistungsanalysen aus unserem Pool von hunderten Branchenspezialisten."
+}];
+const comparison = [{
+  feature: "Anzahl der Netzwerke",
+  traditional: "1 Agentur-Netzwerk",
+  platform: "100+ Spezialistennetzwerke",
+  highlight: true
+}, {
+  feature: "Recruiter-Spezialisierung",
+  traditional: "Generalisten-Recruiter",
+  platform: "Branchenspezialisten",
+  highlight: true
+}, {
+  feature: "Zeit bis zum ersten Kandidaten",
+  traditional: "2-3 Wochen",
+  platform: "1 Woche",
+  highlight: false
+}, {
+  feature: "Erfolgsquote",
+  traditional: "70-80%",
+  platform: "95%+",
+  highlight: true
+}, {
+  feature: "Kostenstruktur",
+  traditional: "Fest 20-30%",
+  platform: "15-25%",
+  highlight: false
+}];
 const Benefits = () => {
-  return (
-    <section className="py-20">
+  return <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <Badge variant="secondary" className="mb-4 px-4 py-2 text-sm font-medium">
@@ -95,8 +69,7 @@ const Benefits = () => {
 
         {/* Benefits Grid */}
         <div className="grid md:grid-cols-3 gap-6 mb-20">
-          {benefits.map((benefit, index) => (
-            <Card key={index} className="bg-gradient-card border-0 shadow-card hover:shadow-elegant transition-all duration-300">
+          {benefits.map((benefit, index) => <Card key={index} className="bg-gradient-card border-0 shadow-card hover:shadow-elegant transition-all duration-300">
               <CardContent className="p-6">
                 <div className="text-center">
                   <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4">
@@ -106,8 +79,7 @@ const Benefits = () => {
                   <p className="text-muted-foreground text-sm">{benefit.description}</p>
                 </div>
               </CardContent>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         {/* Process Comparison */}
@@ -129,21 +101,13 @@ const Benefits = () => {
             <Card className="bg-gradient-card border-0 shadow-card">
               <CardContent className="p-6">
                 <div className="text-center mb-4">
-                  <h3 className="text-xl font-semibold text-destructive mb-2">Vorher: Traditioneller Ansatz</h3>
-                  <p className="text-muted-foreground text-sm">Komplexe Prozesse, viele Schnittstellen</p>
+                  
+                  
                 </div>
                 <div className="aspect-[4/3] bg-muted rounded-lg overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/63e6c6ca-1c83-4a55-b662-39b5e3c20cb0.png" 
-                    alt="Traditioneller Recruiting-Prozess mit vielen Schnittstellen und komplexer Kommunikation"
-                    className="w-full h-full object-cover"
-                  />
+                  <img src="/lovable-uploads/63e6c6ca-1c83-4a55-b662-39b5e3c20cb0.png" alt="Traditioneller Recruiting-Prozess mit vielen Schnittstellen und komplexer Kommunikation" className="w-full h-full object-cover" />
                 </div>
-                <div className="mt-4 flex flex-wrap gap-2 justify-center">
-                  <Badge variant="destructive" className="text-xs">Hoher Zeitaufwand</Badge>
-                  <Badge variant="destructive" className="text-xs">Unklare Kommunikation</Badge>
-                  <Badge variant="destructive" className="text-xs">Zu viele Schnittstellen</Badge>
-                </div>
+                
               </CardContent>
             </Card>
 
@@ -151,21 +115,13 @@ const Benefits = () => {
             <Card className="bg-gradient-card border-0 shadow-card ring-2 ring-primary/20">
               <CardContent className="p-6">
                 <div className="text-center mb-4">
-                  <h3 className="text-xl font-semibold text-primary mb-2">Nachher: Unsere Plattform</h3>
-                  <p className="text-muted-foreground text-sm">Streamlined, transparent, effizient</p>
+                  
+                  
                 </div>
                 <div className="aspect-[4/3] bg-muted rounded-lg overflow-hidden">
-                  <img 
-                    src="/lovable-uploads/e65f2268-813b-4f91-81bb-cbc528e56a9c.png" 
-                    alt="Moderne Plattform mit zentraler Kommunikation und 100+ spezialisierten Recruitern"
-                    className="w-full h-full object-cover"
-                  />
+                  <img src="/lovable-uploads/e65f2268-813b-4f91-81bb-cbc528e56a9c.png" alt="Moderne Plattform mit zentraler Kommunikation und 100+ spezialisierten Recruitern" className="w-full h-full object-cover" />
                 </div>
-                <div className="mt-4 flex flex-wrap gap-2 justify-center">
-                  <Badge variant="secondary" className="text-xs">Ein Ansprechpartner</Badge>
-                  <Badge variant="secondary" className="text-xs">100+ Spezialisten</Badge>
-                  <Badge variant="secondary" className="text-xs">Maximale Transparenz</Badge>
-                </div>
+                
               </CardContent>
             </Card>
           </div>
@@ -197,23 +153,19 @@ const Benefits = () => {
                 </tr>
               </thead>
               <tbody>
-                {comparison.map((item, index) => (
-                  <tr key={index} className="border-b border-border last:border-b-0">
+                {comparison.map((item, index) => <tr key={index} className="border-b border-border last:border-b-0">
                     <td className="py-4 px-4 text-center text-muted-foreground">{item.traditional}</td>
                     <td className="py-4 px-4 text-center">
                       <span className="text-primary font-bold">
                         {item.platform}
                       </span>
                     </td>
-                  </tr>
-                ))}
+                  </tr>)}
               </tbody>
             </table>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Benefits;
