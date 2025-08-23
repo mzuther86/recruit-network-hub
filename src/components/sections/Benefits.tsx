@@ -91,9 +91,7 @@ const Benefits = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Der direkte Pfad zu <span className="bg-gradient-primary bg-clip-text text-transparent">erstklassigen</span> Fachkräften
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Erhalten Sie die Expertise eines kompletten Recruiting-Netzwerks mit 100+ Spezialisten – bei der Einfachheit einer zentralen Kommunikation.
-            </p>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Erhalten Sie die Expertise eines kompletten Recruiting-Netzwerks mit 100+ Spezialisten – mit nur einem zentralen Ansprechpartner.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
