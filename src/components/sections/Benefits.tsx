@@ -119,7 +119,7 @@ const Benefits = () => {
                   
                 </div>
                 <div className="h-150 bg-muted rounded-lg overflow-hidden">
-                  <img src="/lovable-uploads/c385f0f3-b452-45fb-8ed1-74e919a2b6be.png" alt="Moderne Plattform mit zentraler Kommunikation und 100+ spezialisierten Recruitern" className="w-full h-full object-cover" />
+                  <img src="/lovable-uploads/eb16642d-ac5d-439c-82b5-84d08e905f38.png" alt="Moderne Plattform mit zentraler Kommunikation und 100+ spezialisierten Recruitern" className="w-full h-full object-cover" />
                 </div>
                 
               </CardContent>
