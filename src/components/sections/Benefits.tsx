@@ -60,7 +60,7 @@ const Benefits = () => {
             RESSOURCEN OPTIMIEREN
           </Badge>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            <span className="bg-gradient-primary bg-clip-text text-transparent">Revolutionär</span> rekrutieren
+            <span className="bg-gradient-primary bg-clip-text text-transparent">Recruiting</span> rekrutieren
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Qualifizierte Fachkräfte zu gewinnen muss nicht kompliziert oder kostspielig sein.

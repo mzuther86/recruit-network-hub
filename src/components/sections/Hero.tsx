@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Target, TrendingUp } from "lucide-react";
 import heroImage from "@/assets/hero-recruiting.jpg";
-
 const Hero = () => {
-  return (
-    <section className="pt-24 pb-16 bg-gradient-hero">
+  return <section className="pt-24 pb-16 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -14,10 +12,7 @@ const Hero = () => {
                 <span className="bg-gradient-primary bg-clip-text text-transparent"> Elite </span>
                 Freelance-Recruitern
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                Zugriff auf ein Netzwerk von über 100 spezialisierten Recruitern, jeder mit einzigartigen Netzwerken und bewährten Methoden. 
-                Finden Sie Ihre perfekten Kandidaten schneller als traditionelle Agenturen.
-              </p>
+              <p className="text-xl text-muted-foreground leading-relaxed">Profitieren Sie von einem Power-Netzwerk aus über 100 spezialisierten Recruitern – jeder mit exklusiven Kontakten und praxiserprobten Strategien. So finden Sie Ihre Top-Kandidaten blitzschnell, schneller als jede traditionelle Agentur.</p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -30,16 +25,10 @@ const Hero = () => {
 
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-primary rounded-2xl transform rotate-3 opacity-20"></div>
-            <img 
-              src={heroImage} 
-              alt="Professional recruiting network"
-              className="relative rounded-2xl shadow-elegant w-full h-auto"
-            />
+            <img src={heroImage} alt="Professional recruiting network" className="relative rounded-2xl shadow-elegant w-full h-auto" />
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
