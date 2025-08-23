@@ -99,8 +99,7 @@ const Benefits = () => {
             <Card className="bg-gradient-card border-0 shadow-card">
               <CardContent className="p-6">
                 <div className="text-center mb-4">
-                  
-                  
+                  <h3 className="text-xl font-semibold text-muted-foreground">die aktuelle Situation</h3>
                 </div>
                 <div className="h-150 bg-muted rounded-lg overflow-hidden">
                   <img src="/lovable-uploads/f1145198-bb3a-4932-a752-a8f69c40a11f.png" alt="Traditioneller Recruiting-Prozess mit vielen Schnittstellen und komplexer Kommunikation" className="w-full h-full object-cover" />
@@ -113,8 +112,7 @@ const Benefits = () => {
             <Card className="bg-gradient-card border-0 shadow-card">
               <CardContent className="p-6">
                 <div className="text-center mb-4">
-                  
-                  
+                  <h3 className="text-xl font-semibold text-primary">Unser Prozess</h3>
                 </div>
                 <div className="h-150 bg-muted rounded-lg overflow-hidden">
                   <img src="/lovable-uploads/6f2907db-525b-41d4-b608-1af94c3bd692.png" alt="Moderne Plattform mit zentraler Kommunikation und 100+ spezialisierten Recruitern" className="w-full h-full object-cover" />
