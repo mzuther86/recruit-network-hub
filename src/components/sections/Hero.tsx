@@ -8,9 +8,9 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                Vernetzen Sie sich mit 
-                <span className="bg-gradient-primary bg-clip-text text-transparent"> Elite </span>
-                Freelance-Recruitern
+                Recruiting neu gedacht: 
+                <span className="bg-gradient-primary bg-clip-text text-transparent"> Innovation </span>
+                trifft Geschwindigkeit
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">Profitieren Sie von einem Power-Netzwerk aus über 100 spezialisierten Recruitern – jeder mit exklusiven Kontakten und praxiserprobten Strategien. So finden Sie Ihre Top-Kandidaten blitzschnell, schneller als jede traditionelle Agentur.</p>
             </div>
