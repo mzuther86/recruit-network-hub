@@ -112,7 +112,7 @@ const Benefits = () => {
             </Card>
 
             {/* Platform Process */}
-            <Card className="bg-gradient-card border-0 shadow-card ring-2 ring-primary/20">
+            <Card className="bg-gradient-card border-0 shadow-card">
               <CardContent className="p-6">
                 <div className="text-center mb-4">
                   
