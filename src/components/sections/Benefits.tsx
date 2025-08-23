@@ -104,7 +104,7 @@ const Benefits = () => {
                   
                   
                 </div>
-                <div className="h-80 bg-muted rounded-lg overflow-hidden">
+                <div className="h-[150px] bg-muted rounded-lg overflow-hidden">
                   <img src="/lovable-uploads/f1145198-bb3a-4932-a752-a8f69c40a11f.png" alt="Traditioneller Recruiting-Prozess mit vielen Schnittstellen und komplexer Kommunikation" className="w-full h-full object-cover" />
                 </div>
                 
@@ -118,7 +118,7 @@ const Benefits = () => {
                   
                   
                 </div>
-                <div className="h-80 bg-muted rounded-lg overflow-hidden">
+                <div className="h-[150px] bg-muted rounded-lg overflow-hidden">
                   <img src="/lovable-uploads/c385f0f3-b452-45fb-8ed1-74e919a2b6be.png" alt="Moderne Plattform mit zentraler Kommunikation und 100+ spezialisierten Recruitern" className="w-full h-full object-cover" />
                 </div>
                 
