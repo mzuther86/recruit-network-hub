@@ -83,7 +83,7 @@ const Benefits = () => {
         </div>
 
         {/* Process Comparison */}
-        <div className="mb-20">
+        <div className="mb-8">
           <div className="text-center mb-12">
             <Badge variant="secondary" className="mb-4 px-4 py-2 text-sm font-medium">
               PROZESS VEREINFACHEN
