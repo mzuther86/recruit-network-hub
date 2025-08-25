@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-secondary/50 border-t border-border">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-5 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
@@ -45,6 +45,19 @@ const Footer = () => {
               <p>Tech-Recruiting</p>
               <p>Vertriebsrekrutierung</p>
               <p>Marketing-Spezialisten</p>
+            </div>
+          </div>
+
+          {/* Recruiter Section */}
+          <div>
+            <h3 className="font-semibold mb-4">Für Recruiter</h3>
+            <div className="space-y-2">
+              <Link to="/recruiter-registration" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
+                Als Recruiter registrieren
+              </Link>
+              <Link to="/recruiter-faqs" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
+                Recruiter FAQ´s
+              </Link>
             </div>
           </div>
 

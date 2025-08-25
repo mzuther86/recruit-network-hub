@@ -7,6 +7,8 @@ import Index from "./pages/Index";
 import Imprint from "./pages/Imprint";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
+import RecruiterRegistration from "./pages/RecruiterRegistration";
+import RecruiterFAQs from "./pages/RecruiterFAQs";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +22,8 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/imprint" element={<Imprint />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/recruiter-registration" element={<RecruiterRegistration />} />
+          <Route path="/recruiter-faqs" element={<RecruiterFAQs />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
