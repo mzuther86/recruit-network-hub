@@ -10,10 +10,7 @@ const CTA = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Bereit, Ihren Einstellungsprozess zu transformieren?
           </h2>
-          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Schließen Sie sich Hunderten von Unternehmen an, die ihr Recruiting mit unserem Spezialisten-Netzwerk beschleunigt haben. 
-            Finden Sie noch heute bessere Kandidaten schneller.
-          </p>
+          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">Schließen Sie sich Hunderten von Unternehmen an, die ihr Recruiting mit unserem Spezialisten-Netzwerk beschleunigt haben. Finden Sie noch heute bessere Kandidaten in kürzester Zeit.</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90 shadow-glow">
@@ -27,11 +24,11 @@ const CTA = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto pt-8 border-t border-white/20">
             <div className="flex items-center justify-center space-x-3">
               <Phone className="h-5 w-5" />
-              <span>+49 (0) 89-12014173</span>
+              <span>+49 (0) 123 456 789</span>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <Mail className="h-5 w-5" />
-              <span>mail@headsourcing.de</span>
+              <span>hello@recruitnetwork.com</span>
             </div>
           </div>
 
