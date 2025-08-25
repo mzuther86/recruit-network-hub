@@ -121,6 +121,15 @@ const Benefits = () => {
               </CardContent>
             </Card>
           </div>
+          
+          {/* Full Width Comparison Image */}
+          <div className="w-full">
+            <img 
+              src="/lovable-uploads/d61c8bae-40a2-4e48-a00c-52c462c0424a.png" 
+              alt="Vergleich traditionelles Recruiting vs. Plattform-Ansatz" 
+              className="w-full h-auto rounded-2xl shadow-elegant"
+            />
+          </div>
         </div>
 
         {/* Comparison Table */}
