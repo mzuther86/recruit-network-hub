@@ -11,128 +11,133 @@ const Terms = () => {
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold mb-4">
-              <span className="bg-gradient-primary bg-clip-text text-transparent">Terms & Conditions</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent">Datenschutzerklärung</span>
             </h1>
-            <p className="text-xl text-muted-foreground">
-              Allgemeine Geschäftsbedingungen (AGB)
-            </p>
           </div>
 
           <div className="space-y-8">
             <Card className="shadow-card">
               <CardHeader>
-                <CardTitle>§ 1 Geltungsbereich</CardTitle>
+                <CardTitle>1. Datenschutz auf einen Blick</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground leading-relaxed">
-                  Diese Allgemeinen Geschäftsbedingungen gelten für alle Verträge zwischen der RecruitNetwork GmbH 
-                  und ihren Kunden über die Vermittlung von Freelance-Recruitern und die Nutzung der Plattform. 
-                  Abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, der Geltung wird 
-                  ausdrücklich schriftlich zugestimmt.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-card">
-              <CardHeader>
-                <CardTitle>§ 2 Vertragsgegenstand</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground leading-relaxed">
-                  RecruitNetwork vermittelt qualifizierte Freelance-Recruiter an Unternehmen zur Besetzung offener 
-                  Stellen. Die Plattform bietet Zugang zu einem Netzwerk von über 100 spezialisierten Recruitern 
-                  verschiedener Branchen. Der Vertrag kommt durch die Annahme eines Recruiter-Vorschlags zustande.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-card">
-              <CardHeader>
-                <CardTitle>§ 3 Leistungen</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4 text-muted-foreground">
-                  <p>RecruitNetwork erbringt folgende Leistungen:</p>
-                  <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Vermittlung qualifizierter Freelance-Recruiter</li>
-                    <li>Matching-Service basierend auf Anforderungsprofilen</li>
-                    <li>Qualitätskontrolle der Recruiter im Netzwerk</li>
-                    <li>Technische Plattform für die Kommunikation</li>
-                    <li>Support während des gesamten Recruiting-Prozesses</li>
-                  </ul>
+                <div className="space-y-4">
+                  <h4 className="font-semibold">Allgemeine Hinweise</h4>
+                  <p className="text-muted-foreground leading-relaxed text-sm">
+                    Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen 
+                    Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, 
+                    mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema 
+                    Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.
+                  </p>
                 </div>
               </CardContent>
             </Card>
 
             <Card className="shadow-card">
               <CardHeader>
-                <CardTitle>§ 4 Vergütung</CardTitle>
+                <CardTitle>2. Hosting</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="space-y-4 text-muted-foreground">
-                  <p>Die Vergütung erfolgt nach dem "Success Fee" Modell:</p>
-                  <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Zahlung nur bei erfolgreicher Besetzung der Position</li>
-                    <li>Provision von 15-25% des Bruttojahresgehalts</li>
-                    <li>Transparente Preisgestaltung durch Recruiter-Wettbewerb</li>
-                    <li>Keine versteckten Kosten oder Setup-Gebühren</li>
-                  </ul>
-                  <p>Die Zahlung ist nach Vertragsabschluss mit dem Kandidaten fällig.</p>
+                <div className="space-y-4">
+                  <h4 className="font-semibold">Strato</h4>
+                  <p className="text-muted-foreground leading-relaxed text-sm">
+                    Anbieter ist die Strato AG, Otto-Ostrowski-Straße 7, 10249 Berlin (nachfolgend „Strato"). 
+                    Wenn Sie unsere Website besuchen, erfasst Strato verschiedene Logfiles inklusive Ihrer IP-Adressen.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed text-sm">
+                    Weitere Informationen entnehmen Sie der Datenschutzerklärung von Strato: 
+                    <a href="https://www.strato.de/datenschutz/" className="text-primary hover:underline ml-1" target="_blank" rel="noopener noreferrer">
+                      https://www.strato.de/datenschutz/
+                    </a>.
+                  </p>
                 </div>
               </CardContent>
             </Card>
 
             <Card className="shadow-card">
               <CardHeader>
-                <CardTitle>§ 5 Gewährleistung</CardTitle>
+                <CardTitle>3. Allgemeine Hinweise und Pflichtinformationen</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground leading-relaxed">
-                  RecruitNetwork gewährleistet eine Wiederbeschaffungsgarantie von 6 Monaten. Sollte der vermittelte 
-                  Kandidat innerhalb dieser Zeit kündigen oder gekündigt werden, wird kostenfrei eine Nachbesetzung 
-                  angeboten. Ausgenommen sind betriebsbedingte Kündigungen oder Kündigungen aufgrund von 
-                  Umstrukturierungen beim Kunden.
-                </p>
+                <div className="space-y-4">
+                  <h4 className="font-semibold">Hinweis zur verantwortlichen Stelle</h4>
+                  <p className="text-muted-foreground leading-relaxed text-sm">
+                    Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
+                  </p>
+                  <p className="text-muted-foreground">
+                    Michael Zuther<br />
+                    Schleißheimer Str. 219<br />
+                    80809 München<br />
+                    Telefon: 0176 – 62457759<br />
+                    E-Mail: mail@headsourcing.de
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed text-sm">
+                    Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam 
+                    mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten 
+                    (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
+                  </p>
+                </div>
               </CardContent>
             </Card>
 
             <Card className="shadow-card">
               <CardHeader>
-                <CardTitle>§ 6 Datenschutz</CardTitle>
+                <CardTitle>4. Datenerfassung auf dieser Website</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground leading-relaxed">
-                  Alle personenbezogenen Daten werden gemäß DSGVO verarbeitet. RecruitNetwork verpflichtet sich 
-                  zur Vertraulichkeit aller übermittelten Informationen. Kandidatendaten werden nur mit 
-                  ausdrücklicher Zustimmung weitergegeben. Detaillierte Informationen finden Sie in unserer 
-                  Datenschutzerklärung.
-                </p>
+                <div className="space-y-4">
+                  <h4 className="font-semibold">Cookies</h4>
+                  <p className="text-muted-foreground leading-relaxed text-sm">
+                    Unsere Internetseiten verwenden so genannte „Cookies". Cookies sind kleine Datenpakete 
+                    und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend für 
+                    die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem 
+                    Endgerät gespeichert.
+                  </p>
+                  
+                  <h4 className="font-semibold">Kontaktformular</h4>
+                  <p className="text-muted-foreground leading-relaxed text-sm">
+                    Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem 
+                    Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung 
+                    der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben 
+                    wir nicht ohne Ihre Einwilligung weiter.
+                  </p>
+                </div>
               </CardContent>
             </Card>
 
             <Card className="shadow-card">
               <CardHeader>
-                <CardTitle>§ 7 Haftung</CardTitle>
+                <CardTitle>5. Ihre Rechte</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground leading-relaxed">
-                  Die Haftung von RecruitNetwork ist auf Vorsatz und grobe Fahrlässigkeit beschränkt. 
-                  Eine Haftung für mittelbare Schäden, entgangenen Gewinn oder Folgeschäden ist ausgeschlossen, 
-                  soweit gesetzlich zulässig. Die Haftung für Vermögensschäden ist auf die Höhe der 
-                  vereinbarten Vergütung beschränkt.
-                </p>
+                <div className="space-y-4">
+                  <p className="text-muted-foreground leading-relaxed text-sm">
+                    Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck 
+                    Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, 
+                    die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur 
+                    Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft 
+                    widerrufen.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed text-sm">
+                    Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung 
+                    Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht 
+                    bei der zuständigen Aufsichtsbehörde zu.
+                  </p>
+                </div>
               </CardContent>
             </Card>
 
             <Card className="shadow-card">
               <CardHeader>
-                <CardTitle>§ 8 Schlussbestimmungen</CardTitle>
+                <CardTitle>6. SSL- bzw. TLS-Verschlüsselung</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground leading-relaxed">
-                  Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts. Gerichtsstand ist Berlin. 
-                  Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Wirksamkeit der 
-                  übrigen Bestimmungen unberührt. Änderungen bedürfen der Schriftform.
+                <p className="text-muted-foreground leading-relaxed text-sm">
+                  Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, 
+                  wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, 
+                  eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, 
+                  dass die Adresszeile des Browsers von „http://" auf „https://" wechselt und an dem 
+                  Schloss-Symbol in Ihrer Browserzeile.
                 </p>
               </CardContent>
             </Card>

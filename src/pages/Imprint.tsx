@@ -11,7 +11,7 @@ const Imprint = () => {
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold mb-4">
-              <span className="bg-gradient-primary bg-clip-text text-transparent">Imprint</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent">Impressum</span>
             </h1>
             <p className="text-xl text-muted-foreground">
               Rechtliche Informationen und Firmendetails
@@ -19,68 +19,57 @@ const Imprint = () => {
           </div>
 
           <Card className="shadow-card">
-            <CardHeader>
-              <CardTitle>Firmeninformationen</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-6">
+            <CardContent className="space-y-6 p-8">
               <div>
-                <h3 className="font-semibold mb-2">RecruitNetwork GmbH</h3>
+                <h3 className="text-lg font-semibold mb-4">Angaben gemäß § 5 TMG</h3>
                 <p className="text-muted-foreground">
-                  Musterstraße 123<br />
-                  10115 Berlin<br />
-                  Germany
+                  Michael Zuther<br />
+                  Schleißheimer Str. 219<br />
+                  80809 München
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold mb-2">Kontakt</h3>
+                <h3 className="text-lg font-semibold mb-4">Kontakt</h3>
                 <p className="text-muted-foreground">
-                  Phone: +49 (0) 123 456 789<br />
-                  Email: legal@recruitnetwork.com<br />
-                  Website: www.recruitnetwork.com
+                  Telefon: 0176 – 62457759<br />
+                  E-Mail: mail@headsourcing.de
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold mb-2">Rechtliche Informationen</h3>
+                <h3 className="text-lg font-semibold mb-4">Umsatzsteuer-ID</h3>
                 <p className="text-muted-foreground">
-                  Managing Director: Max Mustermann<br />
-                  Commercial Register: HRB 123456 B<br />
-                  Registration Court: Amtsgericht Berlin-Charlottenburg<br />
-                  VAT ID: DE123456789
+                  Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
+                  DE267811402
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold mb-2">Verantwortlich für den Inhalt</h3>
+                <h3 className="text-lg font-semibold mb-4">Redaktionell verantwortlich</h3>
                 <p className="text-muted-foreground">
-                  Max Mustermann<br />
-                  RecruitNetwork GmbH<br />
-                  Musterstraße 123<br />
-                  10115 Berlin, Germany
+                  Michael Zuther
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold mb-2">Haftungsausschluss</h3>
+                <h3 className="text-lg font-semibold mb-4">EU-Streitschlichtung</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, 
-                  Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. 
-                  Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten 
-                  nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als 
-                  Diensteanbieter jedoch nicht unter der Verpflichtung, übermittelte oder gespeicherte 
-                  fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine 
-                  rechtswidrige Tätigkeit hinweisen.
+                  Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr/</a>.<br />
+                  Unsere E-Mail-Adresse finden Sie oben im Impressum.
                 </p>
               </div>
 
               <div>
-                <h3 className="font-semibold mb-2">Urheberrecht</h3>
+                <h3 className="text-lg font-semibold mb-4">Verbraucher­streit­beilegung/Universal­schlichtungs­stelle</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen 
-                  dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art 
-                  der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen 
-                  Zustimmung des jeweiligen Autors bzw. Erstellers.
+                  Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+                </p>
+              </div>
+
+              <div>
+                <p className="text-muted-foreground text-xs">
+                  Quelle: <a href="https://www.e-recht24.de" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://www.e-recht24.de</a>
                 </p>
               </div>
             </CardContent>
