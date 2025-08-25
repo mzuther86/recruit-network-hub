@@ -13,9 +13,7 @@ const CTA = () => {
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">Schließen Sie sich Hunderten von Unternehmen an, die ihr Recruiting mit unserem Spezialisten-Netzwerk beschleunigt haben. Finden Sie noch heute bessere Kandidaten in kürzester Zeit.</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90 shadow-glow">
-              Kostenlos testen <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
               Demo vereinbaren
             </Button>
@@ -24,11 +22,11 @@ const CTA = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto pt-8 border-t border-white/20">
             <div className="flex items-center justify-center space-x-3">
               <Phone className="h-5 w-5" />
-              <span>+49 (0) 89-12014173</span>
+              <span>+49 (0) 123 456 789</span>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <Mail className="h-5 w-5" />
-              <span>mail@headsourcing.de</span>
+              <span>hello@recruitnetwork.com</span>
             </div>
           </div>
 
