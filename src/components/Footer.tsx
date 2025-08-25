@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { Separator } from "@/components/ui/separator";
 import { Network, Mail, Phone, MapPin } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-secondary/50 border-t border-border">
+  return <footer className="bg-secondary/50 border-t border-border">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -15,10 +13,7 @@ const Footer = () => {
               </div>
               <span className="text-xl font-bold">RecruitNetwork</span>
             </Link>
-            <p className="text-muted-foreground text-sm">
-              Verbindung von Unternehmen mit Elite Freelance-Recruitern für schnellere, 
-              effektivere Einstellungen in allen Branchen.
-            </p>
+            <p className="text-muted-foreground text-sm">Wir verbinden Unternehmen mit Top Freelance-Recruitern für schnellere, effektivere Einstellungen in allen Branchen.</p>
           </div>
 
           {/* Quick Links */}
@@ -54,16 +49,13 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>mail@headsourcing.de</span>
+                <span>hello@recruitnetwork.com</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span>+49 (0) 89-12014173</span>
+                <span>+49 (0) 123 456 789</span>
               </div>
-              <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                <MapPin className="h-4 w-4" />
-                <span>Berlin, Germany</span>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -79,8 +71,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
