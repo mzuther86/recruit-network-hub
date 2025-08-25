@@ -102,7 +102,7 @@ const Benefits = () => {
                   <h3 className="text-3xl font-semibold text-muted-foreground">die aktuelle Situation</h3>
                 </div>
                 <div className="h-150 bg-muted rounded-lg overflow-hidden">
-                  <img src="/lovable-uploads/03d2d50c-41f3-4b23-b33e-ca33406262e6.png" alt="Vergleich zwischen traditionellem Recruiting-Prozess und unserer modernen Plattform" className="w-full h-full object-cover" />
+                  <img src="/lovable-uploads/f1145198-bb3a-4932-a752-a8f69c40a11f.png" alt="Traditioneller Recruiting-Prozess mit vielen Schnittstellen und komplexer Kommunikation" className="w-full h-full object-cover" />
                 </div>
                 
               </CardContent>
@@ -115,7 +115,7 @@ const Benefits = () => {
                   <h3 className="text-3xl font-semibold text-primary">Unser Prozess</h3>
                 </div>
                 <div className="h-150 bg-muted rounded-lg overflow-hidden">
-                  <img src="/lovable-uploads/03d2d50c-41f3-4b23-b33e-ca33406262e6.png" alt="Vergleich zwischen traditionellem Recruiting-Prozess und unserer modernen Plattform" className="w-full h-full object-cover" />
+                  
                 </div>
                 
               </CardContent>
