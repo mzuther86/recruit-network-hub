@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { Separator } from "@/components/ui/separator";
 import { Network, Mail, Phone, MapPin } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-secondary/50 border-t border-border">
+  return <footer className="bg-secondary/50 border-t border-border">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-5 gap-8">
           {/* Company Info */}
@@ -73,10 +71,7 @@ const Footer = () => {
                 <Phone className="h-4 w-4" />
                 <span>+49 (0) 89-12014173</span>
               </div>
-              <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                <MapPin className="h-4 w-4" />
-                <span>Berlin, Germany</span>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -92,8 +87,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
